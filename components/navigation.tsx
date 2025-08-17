@@ -47,6 +47,15 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
+            <Link href="/contact">
+              <Button
+                size="lg"
+                className="cursor-pointer group bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-black font-semibold px-8 py-4 text-lg shadow-2xl hover:shadow-yellow-500/25 transition-all duration-300 hover:scale-105 hover:-translate-y-1"
+              >
+                Plan Your Trek
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </Link>
             
           </div>
 
